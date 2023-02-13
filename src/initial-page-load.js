@@ -1,4 +1,7 @@
 export function loadPage() {
+    const contentDivv = document.getElementById('content');
+    contentDivv.innerHTML = ''
+
     const contentDiv = document.getElementById('content');
     const mainPage = document.createElement('div')
     mainPage.id = 'main-page'
@@ -10,7 +13,7 @@ export function loadPage() {
     paragraph.textContent = 'Welcome to our restaurant.';
   
     const image = document.createElement('img');
-    image.src = '../src/rest.jpg'; 
+    image.src = '../src/images/rest.jpg'; 
     image.alt = 'Restaurant';
     image.style.height = '300px'
   
