@@ -16,17 +16,14 @@ export function menuPage() {
     const lasagnaPhoto = document.createElement('img');
     lasagnaPhoto.src = '../src/images/lasagna.jpg'; 
     lasagnaPhoto.alt = 'lasagna';
-    lasagnaPhoto.style.height = '300px'
 
     const iceCreamPhoto = document.createElement('img');
     iceCreamPhoto.src = '../src/images/ice-cream.jpg'; 
     iceCreamPhoto.alt = 'ice cream';
-    iceCreamPhoto.style.height = '300px'
 
     const pancakePhoto = document.createElement('img');
     pancakePhoto.src = '../src/images/pancake.jpg'; 
     pancakePhoto.alt = 'lasagna';
-    pancakePhoto.style.height = '300px'
 
 
     // Drinks 
@@ -36,7 +33,6 @@ export function menuPage() {
     const drinksPhoto = document.createElement('img');
     drinksPhoto.src = '../src/images/drink.jpg'; 
     drinksPhoto.alt = 'drink';
-    drinksPhoto.style.height = '300px'
     
 
     content.appendChild(menu)
